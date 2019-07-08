@@ -1,10 +1,11 @@
 # snr
 
-    Calculate the signal-to-noise ratio according to European Pharmacopoeia guidelines. A Lorentzian or Gaussian lineshape is
-    fitted to the signal in order to determine the half-height peak width and
-    height of the peak. The amplitude of the noise is calculated over twenty
-    peak widths around the fitted signal maximum, and the ratio of fitted peak
-    height to noise amplitude is returned.
+    Calculate the signal-to-noise ratio according to European Pharmacopoeia
+    guidelines. A Lorentzian or Gaussian lineshape is fitted to the signal in
+    order to determine the half-height peak width and height of the peak. The
+    amplitude of the noise is calculated over twenty peak widths around the
+    fitted signal maximum, and the ratio of fitted peak height to noise amplitude
+    is returned.
 
     Parameters
     ----------
